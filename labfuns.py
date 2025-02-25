@@ -177,7 +177,7 @@ def testClassifier(classifier, dataset='iris', dim=0, split=0.7, ntrials=100):
 
     X,y,pcadim = fetchDataset(dataset)
 
-    means = np.zeros(ntrials,);
+    means = np.zeros(ntrials,)
 
     for trial in range(ntrials):
 
